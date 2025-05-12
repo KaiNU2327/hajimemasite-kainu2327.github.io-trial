@@ -32,4 +32,74 @@
       background: white;
       padding: 1rem;
       border-radius: 8px;
-      ma
+      margin-bottom: 1rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .task h3 {
+      font-size: 1.2rem;
+      margin-top: 0;
+    }
+
+    .task p {
+      font-size: 1rem;
+      margin: 0.5rem 0 0 0;
+    }
+
+    a {
+      color: #2c3e50;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        margin: 0.5rem;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      .task h3 {
+        font-size: 1.1rem;
+      }
+
+      .task p {
+        font-size: 0.95rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>課題一覧</h1>
+    <p>今後のやるべきことを整理しています。</p>
+  </header>
+
+  <section>
+    <div class="task">
+      <h3>自己分析の深堀り</h3>
+      <p>自分史や価値観の整理をもう一歩深く。</p>
+    </div>
+
+    <div class="task">
+      <h3>業界ごとの企業研究</h3>
+      <p>業界別の比較を表やマトリクスで整理。</p>
+    </div>
+
+    <div class="task">
+      <h3>ES・面接対策</h3>
+      <p>過去問を集めてテンプレートを作成。</p>
+    </div>
+  </section>
+
+  <p><a href="index.html">← トップページへ戻る</a></p>
+
+</body>
+</html>
