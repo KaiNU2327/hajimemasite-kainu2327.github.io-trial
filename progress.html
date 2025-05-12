@@ -4,6 +4,14 @@
   <meta charset="UTF-8">
   <title>就活の進捗</title>
   <style>
+    .table-container {
+  overflow-x: auto;
+  width: 100%;
+}
+table {
+  min-width: 700px; /* スクロールを発生させる幅 */
+}
+
     table {
   width: 100%;
   border-collapse: separate;
@@ -42,6 +50,7 @@ tbody tr:hover {
     <li>ES提出：0社</li>
     <li>面接準備：未到達</li>
   </ul>
+  <div class="table-container">
    <table>
     <thead>
       <tr>
@@ -133,6 +142,7 @@ tbody tr:hover {
       </tr>
     </tbody>
   </table>
+    </div>
 
   <p><a href="index.html">← トップページへ戻る</a></p>
 </body>
